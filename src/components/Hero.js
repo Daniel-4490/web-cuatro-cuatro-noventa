@@ -7,12 +7,12 @@ import video from '../assets/video-fondo.webm'
 import logo from '../assets/logo-cambiante.gif'
 
 const StyledHero = styled.header`
-  height: 768px;
+  height: 950px;
 `
 
 const Hero = () => {
   return (
-    <StyledHero className="w-full flex flex-col items-center justify-center overflow-hidden relative">
+    <StyledHero className="w-full h-screen md:h-auto flex flex-col items-center justify-center overflow-hidden relative">
       <video src={video} autoPlay loop className="absolute top-0 left-0 w-full object-cover h-full" />
       <img src={logo} alt="cuatrocuatronoventa logo" className="z-10 py-20" />
       <div className="z-10 text-white flex flex-col items-center justify-center text-center">
@@ -24,9 +24,11 @@ const Hero = () => {
           animate={{ top: [0, 10, 0] }}
           transition={{
             repeat: Infinity,
-            repeatType: "loop"
+            repeatType: 'loop'
           }}>
-          <FontAwesomeIcon icon={faChevronDown} className="text-4xl" />
+          <FontAwesomeIcon
+            icon={faChevronDown}
+            className="text-4xl" />
         </motion.div>
       </div>
     </StyledHero>

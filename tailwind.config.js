@@ -3,13 +3,13 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      'display': ['Roboto'],
-      'body': ['Roboto'],
+      display: ['Roboto'],
+      body: ['Roboto']
     },
-    extend: {},
+    extend: {}
   },
   variants: {
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 }
