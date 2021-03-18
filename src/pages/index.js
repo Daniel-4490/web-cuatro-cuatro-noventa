@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Miembro from '../components/Miembro'
@@ -6,6 +7,9 @@ import Miembro from '../components/Miembro'
 const IndexPage = () => {
   return (
     <main>
+      <Helmet
+        title="Cuatro Cuatro Noventa"
+        description="En constante adaptación" />
       <Hero />
       <article className="texto"></article>
       <div className="md:flex-row flex-col m-8 flex justify-around py-40">
