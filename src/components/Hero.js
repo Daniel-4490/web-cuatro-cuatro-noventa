@@ -13,7 +13,7 @@ const StyledHero = styled.header`
 const Hero = () => {
   return (
     <StyledHero className="w-full h-screen md:h-auto flex flex-col items-center justify-center overflow-hidden relative">
-      <video src={video} autoPlay loop className="absolute top-0 left-0 w-full object-cover h-full" />
+      <video src={video} autoPlay loop muted className="absolute top-0 left-0 w-full object-cover h-full" />
       <img src={logo} alt="cuatrocuatronoventa logo" className="z-10 py-20" />
       <div className="z-10 text-white flex flex-col items-center justify-center text-center">
         <span className="mb-4 uppercase text-2xl tracking-widest">
