@@ -17,7 +17,8 @@ const Hero = () => {
       <img src={logo} alt="cuatrocuatronoventa logo" className="z-10 py-20" />
       <div className="z-10 text-white flex flex-col items-center justify-center text-center">
         <span className="mb-4 uppercase text-2xl tracking-widest">
-          En constante adaptación
+          Agencia de publicidad independiente
+          en constante adaptación
         </span>
         <motion.div
           className="relative"
